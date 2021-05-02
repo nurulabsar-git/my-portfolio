@@ -1,0 +1,42 @@
+.resume-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+@media (max-width: 500px) { 
+ .resume-style{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+ /* .sub-resume{
+    box-shadow: 2px 2px 3px gray;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 5px;
+    height: 100vh;
+    width: 100vw;
+
+    
+} */
+
+}
+
+.sub-resume{
+    box-shadow: 2px 2px 3px gray;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 30px;
+    height: 30vh;
+    width: 30vw;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px;
+    padding: 4px;
+
+}
