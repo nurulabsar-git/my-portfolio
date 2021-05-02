@@ -66,7 +66,7 @@ const resumeData = [
     },
 ]
 
-const skill = [
+const skills = [
     {type: "Java Script", level: 75},
     {type: "React.Js", level: 60},
     {type: "React Router", level: 99},
@@ -76,7 +76,7 @@ const skill = [
 
   ];
 
-  const skills = [
+  const skill = [
     {type: "Node Js", level: 45},
     {type: "MongoDB", level: 40},
   ];
@@ -99,16 +99,26 @@ const Resume = () => {
         <section className="skills-container">
           <div>
           <h4><span style={{borderBottom: 'solid red'}}>My Front-end</span> Skills</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum recusandae praesentium sapiente vero ad voluptate quibusdam molestiae aperiam. Animi, facilis!</p>
-          <SkillBar skills={skill} height={14} />
+          <p>
+              <strong>Programming:</strong> Java Script <br/>
+              <strong>Framework and Library:</strong> React.Js, Bootstrap, ReactBootstrap, Material UI. <br/>
+              <strong>Hosting Side:</strong> Firebase, Netlify, Github. <br/>
+              <strong>Tools:</strong> Visual Studio Code, WebStorm.
+          </p>
+          <span>
+               <SkillBar skills={skills} height={14} />
+           </span>
          </div>
          
 
           <div style={{marginLeft: '14px'}}>
           <h4><span style={{borderBottom: 'solid red'}}>My Backend-end</span> Skills</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum recusandae praesentium sapiente vero ad voluptate quibusdam molestiae aperiam. Animi, facilis!</p>
+          <p>
+              framework: Node.js <br/>
+              DataBase: Mongodb 
+          </p>
           <span>
-          <SkillBar skills={skills} height={14} />
+          <SkillBar skills={skill} height={14} />
           </span>
           </div>
          

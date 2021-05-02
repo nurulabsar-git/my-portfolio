@@ -6,9 +6,9 @@ import './Home.css';
 const Home = () => {
     
     return (
-        <div className='m-5 home-page-style'>
+        <div className='home-page-style'>
          <div>
-              <Image src={picture} rounded style={{width: '30%', border: '4px solid green'}}/>
+              <Image src={picture} rounded style={{width: '20%', border: '4px solid green'}}/>
           </div>
      
           <div>

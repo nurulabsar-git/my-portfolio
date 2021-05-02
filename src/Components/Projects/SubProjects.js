@@ -4,7 +4,7 @@ const SubProjects = (props) => {
     const {img} = props.datum;
     return (
         <div>
-            <img src={img} alt="" style={{width: '90%', margin: '30px'}}/>
+            <img src={img} alt="" className="m-4" style={{width: '90%'}}/>
         </div>
     );
 };

@@ -34,7 +34,7 @@ const ContactMe = () => {
               <div className="col-8 form-group pt-2 mx-auto">
                 <textarea className="form-control" placeholder="Your message*" name="message" id="" cols="30" rows="8"></textarea>
               </div>
-               <div className="col-8 pt-3 mx-auto">
+               <div className="col-8 pt-1 pb-4 mx-auto">
                  <input type="submit" className="btn btn-info" value="Send Message"/>
                </div>
 

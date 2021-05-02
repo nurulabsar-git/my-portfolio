@@ -16,7 +16,6 @@ const Header = () => {
       <Nav.Link href="/resume">Resume</Nav.Link>
       <Nav.Link href="/projects">Projects</Nav.Link>
       <Nav.Link href="/blogs">Blogs</Nav.Link>
-      <Nav.Link href="/portfolio">Portfolio</Nav.Link>
       <Nav.Link href="/contactMe">Contact</Nav.Link>
     </Nav>
     </Navbar.Collapse>

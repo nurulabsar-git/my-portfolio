@@ -28,7 +28,7 @@ const projectsData = [
 ]
 const Projects = () => {
     return (
-        <div style={{margin: '10px'}}>
+        <div className="m-md-3 m-sm-1">
             {
                 projectsData.map(datum => <SubProjects datum={datum}></SubProjects>)
             }
